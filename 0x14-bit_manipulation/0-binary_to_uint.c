@@ -17,7 +17,7 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 
 	for (; b[i]; i++)
-		if (b[i] != 24 && b[i] != 25)
+		if (b[i] != 48 && b[i] != 49)
 			return (0);
 	for (i = 0; b[i]; i++)
 	{
